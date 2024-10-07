@@ -1,0 +1,137 @@
+.container {
+    width: auto;
+    height: 0 auto;
+}
+
+.header {
+    background-color: #ccc;
+    min-height: 50px;
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    align-items: center;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.container {
+    align-content: center;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: #ccc;
+    min-height: 500px;
+    overflow: auto;
+    text-align: center;
+}
+
+.thumbnail {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 225px;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+.thumbnail1, .thumbnail2, .thumbnail3 {
+    justify-items: center;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+ul.submenu {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+ul.submenu li {
+    display: block;
+}
+
+ul.submenu li a {
+    display: block;
+    padding: 5px 10px;
+}
+
+ul.submenu {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul.submenu {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+
+.menu ul li:hover ul.submenu {
+    display: block;
+}
+
+.footer {
+    background-color: #ccc;
+    min-height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+    .jumbotron {
+       font-family: sans-serif;
+       margin-top: 50px;
+        width: 100%;
+        padding: 80px 40px;
+        box-sizing: border-box;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #aaa;
+        background-image: url(img/tenang.jpeg);
+        background-size: cover;
+        position: relative;
+        z-index: -1;
+    }
+
+          .overlay {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background-color: black;
+       opacity: 0.4;
+   }
